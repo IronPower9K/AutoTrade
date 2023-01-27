@@ -1,10 +1,3 @@
-!pip install time
-!pip install pyupbit
-!pip install datetime
-!pip install pandas
-
-
-
 import time
 import pyupbit
 import datetime
@@ -12,7 +5,6 @@ import pandas as pd
 import numpy as np
 
 
-# from keras.callbacks import TensorBoard, ModelCheckpoint, ReduceLROnPlateau
 import datetime
 
 btc_current=pyupbit.get_current_price("KRW-BTC")
